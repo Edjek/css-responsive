@@ -1,7 +1,8 @@
 <--! documentaion -->
 https://devdocs.io/
 
+https://www.w3schools.com/
+
 <--! créer une page en 4 minutes -->
 https://jgthms.com/web-design-in-4-minutes/
-
 
