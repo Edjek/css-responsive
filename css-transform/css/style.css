@@ -1,0 +1,12 @@
+.cube {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    perspective: 1500px;
+    transform-origin: top left;
+    transition: transform 0.3s 1s;
+}
+
+.cube:hover {
+    transform: translate(100px, 100px) rotate(45deg) scale(1.2);
+}

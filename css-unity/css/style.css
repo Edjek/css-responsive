@@ -1,5 +1,8 @@
-/* http://alistapart.com/article/howtosizetextincss/ */
+/* article sur l'astuce de Richard Rutter */
+/* https://clagnut.com/blog/348/ */
+
 html {
+    /* tricks de Richard Rutter pour que la taille du texte soit à 10px et que l'on utilise plus facilement les rem */
     font-size: 62.5%;
 }
 
@@ -21,7 +24,7 @@ h2 {
     background-color: #3199da;
 }
 
-/* % | Pourcentage (relatif au parent) */
+/* % | pourcentage (unité relative au parent) */
 .item1 {
     background-color: hsl(349, 57%, 64%);
     width: 50%;
@@ -34,13 +37,13 @@ h2 {
     background-color: hsl(349, 100%, 78%);
 }
 
-/* px | Pixel */
+/* px | pixel */
 .item2 {
     width: 300px;
     height: 300px;
 }
 
-/* vh, vw | viewport (relatif à la taille de l'écran) */
+/* vh, vw | viewport width / height (unité relative à la taille de l'écran) */
 .item3 {
     width: 33vw;
     height: 50vh;
@@ -53,14 +56,14 @@ h2 {
     background-color: hsl(270, 67%, 65%);
 }
 
-/* vmin, vmax | viewport (relatif au côté le plus petit ou le plus grand) */
+/* vmin, vmax | viewport max / min (unité relative au côté le plus petit ou le plus grand) */
 .item4 {
     width: 90vmin;
     height: 10vmax;
     background-color: hsl(303, 83%, 25%);
 }
 
-/* rem, em | emphemeral unit / root empheral unit (relatif à la police d'écriture) */
+/* rem, em | emphemeral unit / root empheral unit (unité relative à la police d'écriture) */
 .item5 {
     font-size: 20px;
     padding: 2em;
