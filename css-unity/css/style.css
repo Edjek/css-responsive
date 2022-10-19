@@ -1,0 +1,71 @@
+/* http://alistapart.com/article/howtosizetextincss/ */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #fff;
+    font-size: 18px;
+}
+
+h1,
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.item {
+    width: 200px;
+    min-height: 200px;
+    margin-bottom: 2px;
+    background-color: #3199da;
+}
+
+/* % | Pourcentage (relatif au parent) */
+.item1 {
+    background-color: hsl(349, 57%, 64%);
+    width: 50%;
+    /* height: 100%; */
+}
+
+.sub-item1 {
+    width: 50%;
+    height: 50%;
+    background-color: hsl(349, 100%, 78%);
+}
+
+/* px | Pixel */
+.item2 {
+    width: 300px;
+    height: 300px;
+}
+
+/* vh, vw | viewport (relatif à la taille de l'écran) */
+.item3 {
+    width: 33vw;
+    height: 50vh;
+    background-color: hsl(270, 27%, 45%);
+}
+
+.sub-item3 {
+    width: 15vw;
+    height: 15vw;
+    background-color: hsl(270, 67%, 65%);
+}
+
+/* vmin, vmax | viewport (relatif au côté le plus petit ou le plus grand) */
+.item4 {
+    width: 90vmin;
+    height: 10vmax;
+    background-color: hsl(303, 83%, 25%);
+}
+
+/* rem, em | emphemeral unit / root empheral unit (relatif à la police d'écriture) */
+.item5 {
+    font-size: 20px;
+    padding: 2em;
+}
+
+.item5 h3 {
+    font-size: 1em;
+}
