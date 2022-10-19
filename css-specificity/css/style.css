@@ -1,0 +1,19 @@
+.container #title {
+    text-align: left;
+}
+
+div #title {
+    text-align: right;
+}
+
+#title {
+    text-align: center;
+}
+
+.title {
+    text-align: left;
+}
+
+h1 {
+    text-align: center !important;
+}

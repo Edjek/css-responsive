@@ -1,0 +1,13 @@
+/* Reset les valeurs par défaut */
+/* https://meyerweb.com/eric/tools/css/reset/ */
+/* https://jgthms.com/minireset.css/ */
+
+/* Unifie le css sur tout les sites */
+/* https://necolas.github.io/normalize.css/ */
+
+/* mini reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
