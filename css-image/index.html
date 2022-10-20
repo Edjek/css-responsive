@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS - Image</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div>
+            <h1>Les images responsives</h1>
+            <div class="container">
+                <img
+                    srcset="img/sunset-1920.jpg 1920w, img/sunset-1280.jpg 1280w, img/hyacinth-640.jpg 640w"
+                    sizes="100vw"
+                    src="img/sunset-1920.jpg"
+                    alt="un magnifique paysage"
+                    class="container-img"
+                />
+            </div>
+            <div class="container">
+                <picture class="container-img">
+                    <source media="(max-width:640px)" srcset="img/hyacinth-640.jpg" />
+                    <source media="(max-width: 1280px" srcset="img/sunset-1280.jpg">
+                    <source media="(max-width: 1920px" srcset="img/sunset-1920.jpg">
+                    <img class="container-img" src="img/sunset-1920.jpg" alt="un magnifique paysage">
+                </picture>
+            </div>
+        </div>
+    </body>
+</html>
