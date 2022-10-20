@@ -22,7 +22,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .circle {
@@ -36,15 +36,15 @@ h1 {
 }
 
 .circle-1 {
-    animation: jump 0.7s infinite alternate;
+    animation: jump 0.4s infinite alternate;
 }
 
 .circle-2 {
-    animation: jump 0.7s 0.1s infinite alternate;
+    animation: jump 0.4s 0.2s infinite alternate;
 }
 
 .circle-3 {
-    animation: jump 0.7s 0.2s infinite alternate;
+    animation: jump 0.4s 0.4s infinite alternate;
 }
 
 .container-2 {
