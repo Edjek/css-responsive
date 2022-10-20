@@ -17,6 +17,15 @@ h2 {
     text-align: center;
 }
 
+.container {
+    width: 90%;
+    height: 300px;
+    max-width: 1080px;
+    min-width: 400px;
+    margin: auto;
+    background-color: beige;
+}
+
 .item {
     width: 200px;
     min-height: 200px;
@@ -70,5 +79,5 @@ h2 {
 }
 
 .item5 h3 {
-    font-size: 1em;
+    font-size: 1rem;
 }

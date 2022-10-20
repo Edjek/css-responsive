@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* déclaration de variables en CSS */
+:root {
+    --main-cl: rgb(54, 105, 234);
+    --txt-cl: #fff;
+}
+
+body {
+    /* pour utiliser la variable, il faut mettre var(--txt-cl) */
+    color: var(--txt-cl);
+}
+
+a {
+    text-decoration: none;
+    color: var(--txt-cl);
+}
+h1 {
+    text-align: center;
+    color: var(--main-cl);
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: var(--main-cl);
+}
+
+.btn-secondary {
+    color: var(--main-cl);
+    border: 1px solid var(--main-cl);
+}
