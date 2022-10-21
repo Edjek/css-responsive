@@ -7,3 +7,6 @@ https://stackoverflow.com/
 
 <--! créer une page en 4 minutes -->
 https://jgthms.com/web-design-in-4-minutes/
+
+<--! site qui decerne des prix aux site design -->
+https://www.awwwards.com/
