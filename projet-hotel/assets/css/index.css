@@ -2,7 +2,7 @@
 .hero-section {
     background-color: green;
     min-height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.743), transparent), url(../img/swimming-pool-1920.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.743), transparent), url(../img/swimming-pool-1920.jpg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -15,6 +15,7 @@
 
 .hero-section h1 {
     font-style: italic;
+    font-weight: 700;
     font-size: 60px;
     color: #fff;
 }
@@ -31,6 +32,7 @@
     min-height: 100vh;
     padding: 100px;
 }
+
 .service h2 {
     font-size: 50px;
     margin-bottom: 80px;
