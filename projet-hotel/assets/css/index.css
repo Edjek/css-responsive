@@ -31,6 +31,11 @@
 .service {
     min-height: 100vh;
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
 }
 
 .service h2 {
@@ -41,9 +46,10 @@
 
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 150px;
+    gap: 50px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -66,8 +72,8 @@
 }
 
 .card-img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 100%;
 }
 
